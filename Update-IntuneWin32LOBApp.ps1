@@ -15,6 +15,9 @@
 # This is the Intune PowerShell SDK I used to help get me to a working PoC:
 #   https://github.com/microsoft/Intune-PowerShell-SDK
 
+# One last thing, this script requires bits outside of the script, like detection, and other things set up first.
+# So really, this is just posted as a starting point.
+
 Param(
    # These 4 params can be pulled in via Azure Key Vault preferably, or Secret Variables in the CI/CD pipeline.
    [string]$IntuneAPIClientID,
